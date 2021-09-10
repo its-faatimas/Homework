@@ -1,0 +1,21 @@
+import 'package:flutter/material.dart';
+
+import 'homework/homework1/homework_1.dart';
+import 'homework/homework1/homework_2.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      themeMode: ThemeMode.dark,
+      debugShowCheckedModeBanner: false,
+      title: 'Additional homework',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: HomeWork1(),
+    );
+  }
+}
+
