@@ -27,15 +27,18 @@ class _HomeCasualState extends State<HomeCasual> {
               // color: Colors.orange[900],
               width: _size!.width,
               child: Column(
-                  children: [
-                    Transform.translate(
-                      offset: Offset(0.0, 120.0),
-                      child: Icon(
+                children: [
+                  Transform.translate(
+                    offset: Offset(0.0, 120.0),
+                    child: Icon(
                       Icons.rounded_corner,
                       color: Colors.white,
                       size: 60.0,
-                    ),),
-                    Transform.translate(offset: Offset(0, 150),child: Container(
+                    ),
+                  ),
+                  Transform.translate(
+                    offset: Offset(0, 150),
+                    child: Container(
                       margin: EdgeInsets.symmetric(
                         vertical: 0.0,
                         horizontal: 25.0,
@@ -48,8 +51,10 @@ class _HomeCasualState extends State<HomeCasual> {
                           fontSize: 22.0,
                         ),
                       ),
-                    ),)
-                  ],),
+                    ),
+                  )
+                ],
+              ),
             ),
             Container(
               padding: EdgeInsets.only(
@@ -132,7 +137,9 @@ class _HomeCasualState extends State<HomeCasual> {
               ),
               onPressed: () {},
             ),
-            SizedBox(height: 60.0,),
+            SizedBox(
+              height: 60.0,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [

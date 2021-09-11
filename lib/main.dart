@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:homework/screens/list_page.dart';
 
 import 'homework/homework1/home_work_casual.dart';
 import 'homework/homework1/homework_1.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeCasual(),
+      home: ListPage(),
     );
   }
 }
