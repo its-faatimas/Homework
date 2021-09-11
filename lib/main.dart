@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'homework/homework1/home_work_casual.dart';
 import 'homework/homework1/homework_1.dart';
 import 'homework/homework1/homework_2.dart';
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeWork1(),
+      home: HomeCasual(),
     );
   }
 }
